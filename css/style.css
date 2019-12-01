@@ -1,3 +1,24 @@
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+    display: block;
+}
+
+.page-section {
+    padding: 8rem 0;
+}
+
+.bg-primary {
+    background-color: rgb(151, 109, 54)!important;
+}
+
 /* Default to hide the video on all devices */
 #video {
     display: none
