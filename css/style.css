@@ -1,3 +1,33 @@
+p, li {
+    font-family: filson-soft, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+#nav-logo,
+button {
+    font-family: filson-soft, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 72pt;
+    color: white;
+}
+
 article,
 aside,
 figcaption,
@@ -24,7 +54,7 @@ section {
 }
 
 .bg-primary {
-    background-color: rgb(151, 109, 54)!important;
+    background-color: rgb(151, 109, 54) !important;
 }
 
 /* Default to hide the video on all devices */
