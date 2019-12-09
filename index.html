@@ -14,11 +14,7 @@
           integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
      <!-- End Bootstrap CSS Framework -->
 
-     <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-     <link rel="favicon" href="favicon.ico">
+     <link rel="shortcut icon" href="favicon-32x32.png">
      <link rel="stylesheet" href="css/style.css">
      <link rel="stylesheet" href="https://use.typekit.net/qjw3rga.css">
 
@@ -55,11 +51,9 @@
      </nav>
 
      <div id="fullScreenDiv">
-          <img src="" id="videosubstitute">
           <div id="videoDiv">
-               <video preload="preload" id="video" autoplay="autoplay" loop="loop">
-                    <source src=>
-                    </source>
+               <video id="video" autoplay muted loop>
+                    <source src="190429_02_Hare_UHD_02.mp4" type="video/mp4">
                </video>
           </div>
           <div id="messageBox">
@@ -71,11 +65,12 @@
      </div>
 
      <!-- About Section -->
-     <section class=" page-section bg-primary" id="about">
+     <section class="page-section bg-primary" id="about">
           <div class="container">
                <div class="row justify-content-left">
                     <div class="col-lg-8 text-left">
-                         <p class="text-white-50 mb-4">Bumby. is more than a bi-weekly produce subscription box. It’s
+                         <p class="text-white-50 mb-4">Bumby. is more than a bi-weekly produce subscription box.
+                              It’s
                               your trip to the
                               grocery store. Your one extra hour of me time. Your step in the right direction of
                               being more sustainable. It’s a better, cheaper, easier, lazier, eco-friendly
@@ -88,6 +83,7 @@
                               mean no seepage and no stink.Once you get your next box in the mail, all you
                               have to do is compost it in your building’s compost bin - or you can leave it out
                               for our delivery people and we’ll take care of it for you. It’s really that easy.</p>
+
                          <a class="btn btn-light btn-xl js-scroll-trigger" href="">Get Started! What are you waiting
                               for?</a>
                     </div>
@@ -96,41 +92,51 @@
      </section>
 
      <!-- Features Section -->
-     <section class="page-section" id="features">
+     <section class="page-section bg-secondary" id="features">
           <div class="container">
                <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/carrot.png">
                               <h3 class="h4 mb-2">Farm.</h3>
-                              <p class="text-muted mb-0">There’s only one middle man: us. Otherwise, all Bumby produce
-                                   goes straight from the farm to your table.</p>
+                              <p class="mb-0">All Bumby produce goes straight
+                                   from the farm to your table. No
+                                   middle man, and that’s a
+                                   promise.</p>
                          </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/kale.png">
                               <h3 class="h4 mb-2">Fresh.</h3>
-                              <p class="text-muted mb-0">Freshliness is next to Godliness... or something like that. So
-                                   we deliver fresh produce to you every two weeks, no grocery store required.</p>
+                              <p class="mb-0">We deliver fresh produce to you
+                                   every two weeks, no grocery
+                                   store trip required. This is easiest
+                                   way to save money, time, and our
+                                   planet all at once.</p>
                          </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/broccoli.png">
                               <h3 class="h4 mb-2">Easy.</h3>
-                              <p class="text-muted mb-0">Bumby isn’t a chore. It’s an easy (and cheap!) way to do good
-                                   and eat good. You pay $20 and we send you quality, healthy produce. That was easy.
+                              <p class="mb-0">Bumby isn’t a chore. It’s an easy
+                                   (and cheap!) way to do good and
+                                   eat good. You pay $15 and
+                                   we send you quality, healthy
+                                   produce. That was easy.
                               </p>
                          </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/blueberry.png">
                               <h3 class="h4 mb-2">Eco-friendly.</h3>
-                              <p class="text-muted mb-0">Composting is scary no longer. Simply throw your food waste
-                                   back in your resealable Bumby Box and leave it out on the day of your next delivery.
-                                   Feels good.</p>
+                              <p class="mb-0">Composting is scary no longer.
+                                   Simply throw your food waste
+                                   back in your resealable Bumby
+                                   Box and leave it out on the day of
+                                   your next delivery. Feels good.</p>
                          </div>
                     </div>
                </div>
@@ -143,7 +149,7 @@
                <div class="row">
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/4stars.png">
                               <p class="text-white-50 mb-0">&#34;Bumby made composting
                                    extremely easy for me... I had
                                    always struggled with finding a
@@ -153,7 +159,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/5stars.png">
                               <p class="text-white-50 mb-0">&#34;I appreciate having fresh
                                    vegetables that come from local
                                    farms. I feel better about what I’m
@@ -163,7 +169,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/5stars.png">
                               <p class="text-white-50 mb-0">&#34;I used to love grocery shopping,
                                    that is until I learned about the
                                    chemicals they add to keep out
@@ -176,7 +182,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                          <div class="mt-5">
-                              <i href=""></i>
+                              <img src="images/4stars.png">
                               <p class="text-white-50 mb-0">&#34;I think Bumby is great for any
                                    kind of household. It’s one less
                                    thing I have to worry about and I
@@ -189,14 +195,35 @@
           </div>
      </section>
 
-     <!-- TODO: Create an area to show company contact info (phone,
-             location, etc.) -->
+     <!-- Contact Section -->
+     <section class="page-section bg-secondary" id="contact">
+          <div class="container">
+               <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center">
+                         <h2 class="mt-0">Let's Keep In Touch!</h2>
+                         <p class="mb-5">Call or email if you have any tips on how we can make Bumby the best it can be
+                              for you!
+                              And, of course, if you love us please give us a share! We know the Earth would appreciate
+                              it.</p>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+                         <p>(555) 101 - 8099</p>
+                    </div>
+                    <div class="col-lg-4 mr-auto text-center">
+                         <a class="d-block" href="mailto:contact@yourwebsite.com">questions@bumby.com</a>
+                    </div>
+               </div>
+          </div>
+     </section>
 
-     <!-- TODO: Create an area that allows users to Share links to the
-             page. -->
-
-     <!-- TODO: Create a call to action link to get users to sign up for the
-             service. -->
+     <!-- Footer -->
+     <footer class="bg-secondary py-5">
+          <div class="container">
+               <div class="small text-center">Copyright &copy; 2019 Bumby Co.</div>
+          </div>
+     </footer>
 
      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
           integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
